@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Etapa 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card form-card">
+      <div class="top-warning">ETAPA 2/3 — OU TALVEZ 1/3</div>
+      <h1>Cadastro obrigatório (quase)</h1>
+
+      <div class="confusing-box">
+        <strong>Importante:</strong> preencha somente os campos obrigatórios.
+        Os campos opcionais são obrigatórios dependendo da sua resposta.
+      </div>
+
+      <form id="cadastroForm">
+        <label for="nome">Nome completo*</label>
+        <input id="nome" name="nome" autocomplete="name" placeholder="Digite seu nome">
+
+        <label for="email">E-mail* <span>(não precisa conter @, mas precisa conter @)</span></label>
+        <input id="email" name="email" autocomplete="email" placeholder="exemplo@email.com">
+
+        <label for="senha">Senha* <span>(mínimo 8 caracteres e exatamente 8 caracteres)</span></label>
+        <input id="senha" name="senha" type="password" placeholder="8 caracteres">
+
+        <label for="cor">Qual é sua cor favorita? (obrigatório)</label>
+        <select id="cor">
+          <option value="">Selecione uma opção</option>
+          <option>Azul</option>
+          <option>Verde</option>
+          <option>Vermelho</option>
+          <option>Outra</option>
+        </select>
+
+        <label class="check-row">
+          <input type="checkbox" id="termos">
+          Li os termos que não aparecem nesta tela e concordo.
+        </label>
+
+        <p id="error" class="error"></p>
+
+        <div class="buttons">
+          <button type="button" id="backBtn" class="btn back-btn">FINALIZAR</button>
+          <button type="submit" class="btn next-btn">Continuar (talvez)</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
