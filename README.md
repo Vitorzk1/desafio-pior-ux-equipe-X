@@ -208,10 +208,8 @@ O objetivo do playtest é observar quais elementos causam mais confusão e compa
 
 ## 👥 Equipe
 
-- Integrante 1: ____________________
-- Integrante 2: ____________________
-- Integrante 3: ____________________
-- Integrante 4: ____________________
+- Integrante 1: Vitor Felipe Lenz
+
 
 ## 📚 Conclusão
 
